@@ -1,6 +1,6 @@
 package net.guizhanss.minecraft.extragear.util;
 
-import org.apache.commons.lang.Validate;
+import org.apache.commons.lang3.Validate;
 
 import net.guizhanss.guizhanlib.slimefun.Metals;
 

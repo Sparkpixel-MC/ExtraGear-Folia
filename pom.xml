@@ -19,8 +19,8 @@
             <url>https://repo.destroystokyo.com/repository/maven-public/</url>
         </repository>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id>menthamc</id>
+            <url>https://repo.menthamc.org/repository/maven-public/</url>
         </repository>
         <repository>
             <id>jitpack.io</id>
@@ -29,6 +29,13 @@
         <repository>
             <id>bstats-repo</id>
             <url>https://repo.codemc.org/repository/maven-public</url>
+        </repository>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Sparkpixel-MC/Guizhanlib-Folia</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
@@ -104,16 +111,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <groupId>me.earthme.luminol</groupId>
+            <artifactId>luminol-api</artifactId>
+            <version>1.21.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>com.github.thebusybiscuit</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-27</version>
+            <version>RC-36</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -136,8 +143,8 @@
 
         <dependency>
             <groupId>net.guizhanss</groupId>
-            <artifactId>GuizhanLib</artifactId>
-            <version>0.4.0</version>
+            <artifactId>guizhanlib</artifactId>
+            <version>2.4.0-Folia</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
