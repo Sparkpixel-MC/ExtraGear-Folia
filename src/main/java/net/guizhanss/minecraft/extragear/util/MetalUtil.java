@@ -2,8 +2,6 @@ package net.guizhanss.minecraft.extragear.util;
 
 import org.apache.commons.lang3.Validate;
 
-import net.guizhanss.guizhanlib.slimefun.Metals;
-
 public class MetalUtil {
     private MetalUtil() {}
 
@@ -11,11 +9,10 @@ public class MetalUtil {
         Validate.notNull(id, "Metal id cannot be null");
 
         if (id.equals("HARDENED")) {
-            id = "HARDENED_METAL";
+            return "硬化金属";
         } else if (id.equals("REINFORCED")) {
-            id = "REINFORCED_ALLOY";
+            return "强化合金";
         }
-
-        return Metals.getType(id);
+        return id;
     }
 }
