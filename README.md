@@ -9,8 +9,8 @@ ExtraGear 是现存的最早一批 Slimefun 附属插件之一。
 你可以在这里下载ExtraGear: [下载ExtraGear](https://builds.guizhanss.net/ybw0014/ExtraGear-CN/master)
 
 <p align="center">
-  <a href="https://github.com/ybw0014/ExtraGear-CN/actions/workflows/maven.yml">
-    <img src="https://github.com/ybw0014/ExtraGear-CN/actions/workflows/maven.yml/badge.svg" alt="Java CI"/>
+  <a href="https://github.com/ybw0014/ExtraGear-CN/actions/workflows/build.yml">
+    <img src="https://github.com/ybw0014/ExtraGear-CN/actions/workflows/build.yml/badge.svg" alt="Java CI"/>
   </a>
 
   <a href="https://builds.guizhanss.net/ybw0014/ExtraGear-CN/master">

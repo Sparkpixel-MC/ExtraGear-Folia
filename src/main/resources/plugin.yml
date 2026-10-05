@@ -1,5 +1,5 @@
 name: ExtraGear
-version: ${project.version}
+version: ${version}
 author: TheBusyBiscuit
 depend: [Slimefun]
 

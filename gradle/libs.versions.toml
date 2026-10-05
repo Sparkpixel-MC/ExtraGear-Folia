@@ -1,0 +1,13 @@
+[versions]
+foliaApi = "26.2.build.7-beta"
+slimefun4 = "RC-37"
+bstats = "3.2.1"
+shadow = "9.6.1"
+
+[libraries]
+folia-api = { module = "dev.folia:folia-api", version.ref = "foliaApi" }
+slimefun4 = { module = "com.github.thebusybiscuit:Slimefun4", version.ref = "slimefun4" }
+bstats-bukkit = { module = "org.bstats:bstats-bukkit", version.ref = "bstats" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
