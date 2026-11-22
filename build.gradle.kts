@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "io.github.thebusybiscuit"
-version = "1.2.0-Folia"
+version = "1.3.0-Folia"
 
 java {
     toolchain {
@@ -14,7 +14,7 @@ java {
 
 tasks.withType<JavaCompile>().configureEach {
     options.encoding = "UTF-8"
-    // folia-api 26.2 ships Java 25 class files, so the plugin must target 25 as well.
+    // folia-api 26.3 ships Java 25 class files, so the plugin must target 25 as well.
     options.release = 25
 }
 
